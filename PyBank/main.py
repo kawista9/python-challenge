@@ -2,7 +2,7 @@ import os
 import csv
 #pathway to file
 csvpath = os.path.join("budget_data.csv")
-file=os.path.join("input.txt")
+
 
 date=[]
 revenue=[]
@@ -46,7 +46,7 @@ with open(csvpath, newline='') as csvfile:
     print(f"Greatest Decrease in Profit:  (${min_value})")
 
  
-
+file=os.path.join("input.txt")
 with open(file, "r") as text:
     print(text)
 
